@@ -9,7 +9,6 @@
     --bg-white: white;
 }
 
-
 * {
     box-sizing: border-box;
 }
@@ -45,11 +44,25 @@ body {
 
 .header_theme-title {
 
+    margin-top: 0;
+    padding: 5px 0 5px 0;
     background-color: var(--secondary-bg-color);
     font-family: Raleway, sans-serif;
     color: var(--bg-white);
     font-weight: 200;
     font-size: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 
+}
+
+.header__theme-title-franchise {
+
+    font-style: italic;
+
+}
+
+.article_list-items {
+
+    border: solid var(--border-color) thin;
 }
