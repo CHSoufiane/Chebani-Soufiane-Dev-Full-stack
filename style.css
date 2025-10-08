@@ -53,6 +53,8 @@ body {
     font-size: 15px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
 
 }
 
@@ -62,7 +64,21 @@ body {
 
 }
 
+.articls_list {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+
+} 
+
 .article_list-items {
 
     border: solid var(--border-color) thin;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-white);
+    box-sizing: border-box;
 }
